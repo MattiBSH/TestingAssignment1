@@ -1,5 +1,5 @@
 public class CelsiusConverter {
-    public Double getFahreheit(Integer celsius) {
-        return celsius * 1.8 + 32;
+    public Double getFahreheit(double celsius) {
+        return (9/5.0) * celsius + 32;
     }
 }

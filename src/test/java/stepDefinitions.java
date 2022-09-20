@@ -7,15 +7,15 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class stepDefinitions {
-    Integer celsius = -1;
+    double celsius = -1;
     Double fahrenheit = 0.0;
 
-    @Given("I have {int} celcius")
-    public void i_have_celcius(Integer int1) {
+    @Given("I have {double} celcius")
+    public void i_have_celcius(Double celsius1) {
         // Write code here that turns the phrase above into concrete actions
         try{
-            if(int1 != null) {
-                celsius = int1;
+            if(celsius1 != null) {
+                celsius = celsius1;
             }
         }catch (Exception e){
             System.out.println(e);
