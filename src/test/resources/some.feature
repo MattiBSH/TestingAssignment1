@@ -1,6 +1,6 @@
-Feature: Belly
+Feature: Celsius to fahrenheit conversion
 
-  Scenario: a few cukes
-    Given I have 42 cukes in my belly
-    When I wait 1 hour
-    Then my belly should growl
+  Scenario: a whole number
+    Given I have 42 celcius
+    When I convert the temperature to fahrenheit
+    Then I should get 107.6 fahrenheit

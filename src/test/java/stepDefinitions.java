@@ -3,21 +3,21 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class stepDefinitions {
-    @Given("I have {int} cukes in my belly")
-    public void i_have_cukes_in_my_belly(Integer int1) {
+    @Given("I have {int} celcius")
+    public void i_have_celcius(Integer int1) {
+        // Write code here that turns the phrase above into concrete actions
+        
+        throw new io.cucumber.java.PendingException();
+    }
+    @When("I convert the temperature to fahrenheit")
+    public void i_convert_the_temperature_to_fahrenheit() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
-
-    @When("I wait {int} hour")
-    public void i_wait_hour(Integer int1) {
+    @Then("I should get {double} fahrenheit")
+    public void i_should_get_fahrenheit(Double double1) {
         // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
 
-    @Then("my belly should growl")
-    public void my_belly_should_growl() {
-        // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
 }
